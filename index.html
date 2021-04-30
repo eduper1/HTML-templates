@@ -64,6 +64,7 @@
             <input id="file" name="file" type="file" accept="image/*" multiple>
             <button type="submit">Sign up</button>
             <!--there's much more eg: radio button, check box, drop down list...-->
+         </form>
             <!--Media element-->
             <audio controls loop autoplay>
                 <source src="#.ogg" type="audio/ogg">
@@ -72,10 +73,28 @@
             <video src="#" control>
                 <source src="#.ogg" type="video/webm">
                 <source src="#.mp3" type="video/mp4">
-                <track src="#.vtt" kind="caption" label="english" srclang="en" default>
+                <track src="#.en.vtt" kind="caption/description/chapters" label="english/description" srclang="en" default>
                 <p><!--Write smthg to explain about your media--></p>
             </video>
-         </form>
+            <!--Image-->
+            <picture>
+            <img src="#" alt="" width="" height=""
+                srcset="<!--image source here.jpg/png  2x/1x/3x/1.5x,4x-->",
+                <!--next size-->
+            >
+            </picture>
+            <figure>
+            <source media= "(min-width:600px)" srcset="when condition is true bigger image goes here">
+            <source srcset="croped image goes here for the phone version">
+            <img src="#" alt="" width="" height=""
+                srcset="<!--image source here.jpg/png 480w, 960w, 1440w, 1920w, -->",
+                
+                sizes="(max-width: 480px) 240px,
+                (max-width:960px 480px) 480px,
+                (max-width:1440px) 960px,
+                1920px"
+            ><figcaption>Hello world</figcaption>
+            </figure>
     </body>
 
 </html>
