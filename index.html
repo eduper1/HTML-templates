@@ -10,37 +10,38 @@
         <meta name="application_name " content="image.png"><!--insert a background image-->
         <meta rel="theme-color" content="color"> <!--insert color background color-->
 
-        <link rel="stylesheet" href="#">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="#">
         <script src="#"></script>
     </head>
 
     <body>
-         <h1>Personal Blog</h1>
+    <!--
+       <h1>Personal Blog</h1>
          <p>Hello this is my first time to publish a blog</p>
          
-         <!--What goes inside body-->
+          What goes inside body
          <main>
-            <!--Wraps around the main content of the page. Used once per webpage-->
+            Wraps around the main content of the page. Used once per webpage
          </main>
          <header>
-            <!--Used to mark places on the webpage where the content is header-->
+            <!Used to mark places on the webpage where the content is header
          </header>
          <footer>
-            <!--Used to amrk places on the webpage where the content is footer, links, copy right info, etc info about company-->
+            <!Used to amrk places on the webpage where the content is footer, links, copy right info, etc info about company>
          </footer>
          <article>
-            <!--Frequently starts with a title, subtitle, authors name, publication date,
-            tweet, card, social media post-->
+            <!Frequently starts with a title, subtitle, authors name, publication date,
+            tweet, card, social media post>
          </article>
          <section>
-            <!--Wrap around section of content, different topic-->
+            <!Wrap around section of content, different topic>
          </section>
          <aside>
-            <!--Marks content that is off to the side or not the main attraction, advertisement-->
+            <!Marks content that is off to the side or not the main attraction, advertisement>
          </aside>
          
-         <!--Form elements-->
+         <!-Form elements->
          <form action="#" method="post">
             <label>
                Name 
@@ -63,9 +64,9 @@
             <label for="file">File</label>
             <input id="file" name="file" type="file" accept="image/*" multiple>
             <button type="submit">Sign up</button>
-            <!--there's much more eg: radio button, check box, drop down list...-->
+            <!-there's much more eg: radio button, check box, drop down list...->
          </form>
-            <!--Media element-->
+            <!-Media element->
             <audio controls loop autoplay>
                 <source src="#.ogg" type="audio/ogg">
                 <source src="#.mp3" type="audio/mpeg">
@@ -74,20 +75,20 @@
                 <source src="#.ogg" type="video/webm">
                 <source src="#.mp3" type="video/mp4">
                 <track src="#.en.vtt" kind="caption/description/chapters" label="english/description" srclang="en" default>
-                <p><!--Write smthg to explain about your media--></p>
+                <p><!-Write smthg to explain about your media-></p>
             </video>
-            <!--Image-->
+            <!Image>
             <picture>
             <img src="#" alt="" width="" height=""
-                srcset="<!--image source here.jpg/png  2x/1x/3x/1.5x,4x-->",
-                <!--next size-->
+                srcset="<!-image source here.jpg/png  2x/1x/3x/1.5x,4x->",
+                next size
             >
             </picture>
             <figure>
             <source media= "(min-width:600px)" srcset="when condition is true bigger image goes here">
             <source srcset="croped image goes here for the phone version">
             <img src="#" alt="" width="" height=""
-                srcset="<!--image source here.jpg/png 480w, 960w, 1440w, 1920w, -->",
+                srcset="<!-image source here.jpg/png 480w, 960w, 1440w, 1920w, ->",
                 
                 sizes="(max-width: 480px) 240px,
                 (max-width:960px 480px) 480px,
@@ -95,6 +96,93 @@
                 1920px"
             ><figcaption>Hello world</figcaption>
             </figure>
+    -->
+         <!--Personal static website -->
+
+         <!--Header-->
+         <header>
+            <div class="">
+            <!--A background image, a sticky address bar with a profile pic, A little info of owner-->
+               <div class="content-wrap">
+                  <div class="sub-child">
+                     <img src="image/profile.png" alt="A picture of Abdi Mohamed Dahir" width="600px">
+                  </div>
+                  <div class="sub-child">
+                     <a href="#" > Link</a>
+                  </div>
+               </div>
+               <div class="content-wrap">
+                  <h1>Abdi Mohamed Dahir</h1>
+                  <h2>O-Level student. Awkward and silent.</h2>
+                  <h5>Hello, Welcome to this page.</h5>
+               </div>
+            </div>
+         </header>                           
+         
+         <!--body-->
+         <section>
+         <!--Status of education, hobby, Dream-->
+         <!--Education-->
+            <div class="parent">
+               <div class="child"></div>
+               <div class="child"></div>
+            </div>
+            <!--hobby-->
+            <div class="hobby">
+               <div class="content-wrap">
+                  <img src="image/hobby.jpg">
+               </div>
+               <div class="content-wrap">
+                  <h3>Hobbies</h3>
+                  <p> In ven diagram about hobbies, I will be found in the intersection point. 
+                  But one thing that always pulls and absorbs me they way Black Hole pulls and absorbs anything around intersection,
+                  is ...
+                  I love people, nature and blowing facts of science as whole.
+                  I give attention to the loop I am in, the circle that sorrounds me
+                  </p>
+               </div>
+            </div>
+            <!--Dream-->
+            <div class="dream">
+               <div class="content-wrap">
+                  <img src="image/dream.jpg">
+               </div>
+               <div class="content-wrap">
+                  <h3>Dreams</h3>
+                  <p>Certainly I have ambitions and dreams, and when time arrives i will have to pick one
+                  . Generally, I am mad with various dream track like:
+                     <ul>
+                        <li>Astrophysics</li>
+                        <li>Mathematics</li>
+                        <li>Robotics</li>
+                        <li>Mechatronics</li>
+                        <li>Quantum computing</li>
+                        <li>E.t.c</li>
+                     </ul>
+                     But my ultimate wish and dream is to be pleased with my Creator. 
+                     </p>
+               </div>
+            </div>
+         </section>         
+
+         <!--notice-->
+         <aside class="notice">
+         <!--Notice the page is still under development, future expectation-->
+            <div class="content-wrap">
+               <div class="child">
+                  <p>Hi! This webpage is current under development <br>
+                  If you wish to be featured on this page or have any idea to make it better<br>
+                  Please reach me out.</p>
+               </div>
+            </div>
+         </aside>
+         
+         <!--Footer-->
+         <footer>
+            <div class="parent">
+               <div class="child"></div>
+            </div>
+         </footer>
     </body>
 
 </html>

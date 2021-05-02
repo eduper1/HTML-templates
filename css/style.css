@@ -1,0 +1,58 @@
+/*
+COLOR PALETTE
+#F7FFF7 almost white
+#343434 darkgrey - almost black
+#2F3061 - Blue dark
+#FFE660 -yellow
+#A1C607 - blue Light
+*/
+
+/* Global styles
+******************************************/
+body {
+    color: #3ffaec;
+}
+img {
+    width: 300px;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+a {
+    color: #ffe660;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile styles
+******************************************/
+header {
+    background-color: #2F3061;
+}
+header a {
+    color: #f7fff7;
+    background: #2F3061;
+    text-decoration: none;
+}
+/* Projects styles
+******************************************/
+/* hobby 
+******************************************/
+.hobby {
+    background-color: #F7aFF7   ;
+}
+
+/* dream 
+******************************************/
+.dream {
+    background: #A1C607;
+}
+
+/* Notice styles
+******************************************/
+.notice {
+    background: #343434;
+    color: azure;
+}
