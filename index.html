@@ -1,17 +1,19 @@
-<!DOCSTYPE html>
+<!DOCTYPE html>
 <html lang="en-US" dir="ltr">
     <head>
         <meta charset="UTF-8">
         <title>Prototype</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="Discription" content="A description of the site that will show up in search engine result.">
+        <link rel-"icon" type="image/jpg" href="" >
         <!--meta data used to show when the site is bookmarked-->
-        <meta name="application-name" content="Webpage name"> <!--inser name when bookmarked-->
-        <meta name="application_name " content="image.png"><!--insert a background image-->
-        <meta rel="theme-color" content="color"> <!--insert color background color-->
+        <meta name="application-name" content="prototype"> <!--inser name when bookmarked-->
+        <meta name="Prototype" content="fav icon.png"><!--insert a background image-->
+        <meta rel="theme-color" content="lightblue"> <!--insert color background color-->
 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="#">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
         <script src="#"></script>
     </head>
 
@@ -104,11 +106,11 @@
             <div class="stick">
             <!--A background image, a sticky address bar with a profile pic, A little info of owner-->
                <div class="content-wrap">
-                  <div class="sub-child">
-                     <img src="image/profilecartoon.png" class="profile" alt="A picture of Abdi Mohamed Dahir" >
+                  <div class="sub-child person">
+                     <img src="image/profilemodified.png" class="profile" alt="A picture of Abdi Mohamed Dahir" >
                   </div>
                   <div class="sub-child link">
-                     <a href="#"  class="btn"> Home</a>
+                     <a href="https://www.paypal.com/donate?hosted_button_id=M9PR8DLLFUTVW"  class="btn"> Donate</a>
                      <a href="#"  class="btn"> About</a>
                      <a href="#"  class="btn"> Video</a>
                   </div>
@@ -130,10 +132,10 @@
                <div class="sub-child"></div>
             </div>-->
             <!--hobby-->
-            <article>
+            <article class="card">
                <div class="hobby content-wrap">
                   <div class="sub-child">
-                     <img src="image/hobby.png" alt="A man sitting under a tree with moon as background">
+                     <img src="https://images.freeimages.com/images/large-previews/66f/biking-1183092.jpg" alt="A boy on a bicycle">
                   </div>
                   <div class="sub-child text">
                      <h3>Hobbies</h3>
@@ -146,12 +148,27 @@
                   </div>
                </div>
             </article>
-            
+            <article class="card">
+               <div class="hobby content-wrap">
+                  <div class="sub-child">
+                     <img src="https://images.freeimages.com/images/large-previews/66f/biking-1183092.jpg" alt="A boy on a bicycle">
+                  </div>
+                  <div class="sub-child text">
+                     <h3>Hobbies</h3>
+                     <p> In ven diagram about hobbies, I will be found in the intersection point. 
+                     But one thing that always pulls and absorbs me they way Black Hole pulls and absorbs anything around intersection,
+                     is ...
+                     I love people, nature and blowing facts of science as whole.
+                     I give attention to the loop I am in, the circle that sorrounds me
+                     </p>
+                  </div>
+               </div>
+            </article>
             <!--Dream-->
-            <article>
+            <article class="card">
                <div class="dream content-wrap">
                   <div class="sub-child">
-                     <img src="image/dream.jpg">
+                     <img src="https://images.freeimages.com/images/large-previews/cc7/in-search-of-the-horizon-1568665.jpg" alt="search in the horizon">
                   </div>
                   <div class="sub-child text">
                      <h3>Dreams</h3>
@@ -170,6 +187,23 @@
                   </div>
                </div>
             </article>
+            <article class="card">
+               <div class="hobby content-wrap">
+                  <div class="sub-child">
+                     <img src="https://images.freeimages.com/images/large-previews/66f/biking-1183092.jpg" alt="A boy on a bicycle">
+                  </div>
+                  <div class="sub-child text">
+                     <h3>Hobbies</h3>
+                     <p> In ven diagram about hobbies, I will be found in the intersection point. 
+                     But one thing that always pulls and absorbs me they way Black Hole pulls and absorbs anything around intersection,
+                     is ...
+                     I love people, nature and blowing facts of science as whole.
+                     I give attention to the loop I am in, the circle that sorrounds me
+                     </p>
+                  </div>
+               </div>
+            </article>
+            
             
          </section>         
 
@@ -177,12 +211,25 @@
          <aside class="notice">
          <!--Notice the page is still under development, future expectation-->
             <div class="content-wrap">
-               <div class="child Bio">
-                  <p>Hi! This webpage is current under development <br>
+               <div class="child bio">
+                  <p>Hi! This webpage is currently under development <br>
                   If you wish to be featured on this page or have any idea to make it better<br>
-                  Please reach me out.</p>
+                  Please reach <a href="#email">me out</a>.</p>
                </div>
+               <address>
+                     Written by <a href="mailto:edupercatson00@gmail.com" id="email" target="_blank">Eduper</a>.<br>
+                     
+                  </address>
             </div>
+            <article class="card">
+               <form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="M9PR8DLLFUTVW" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_KE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
+            </article>
          </aside>
          
          <!--Footer-->
