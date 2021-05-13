@@ -18,6 +18,7 @@ img {
 }
 .content-wrap {
     max-width: 85%;
+    display: block;
     width: 900px;
     min-height: min-content;
     margin: 0 auto;
@@ -57,7 +58,7 @@ a {
     text-align: right;
 }
 section {
-    display: grid;
+    display: ;
     
 }
 section img {
