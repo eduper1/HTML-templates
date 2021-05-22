@@ -285,6 +285,7 @@ address a {
             color: #f7fff7;
             background: #8F3061;
             text-decoration: none;
+            font-size: x-large;
             border-radius: 4px;
             padding: 8px;
             border-color: white;
@@ -315,6 +316,7 @@ address a {
         }
         .Bio {
             clear: both;
+            font-size: large;
             font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
             text-align: center;
             text-overflow: ellipsis;
@@ -346,15 +348,17 @@ address a {
             background: #343434;
             clear: both;
             color: azure;
+            padding-bottom: 20px;
         }
         aside .bio {
             font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
             text-align: left;
             color: red;
+
             margin-top: 20px;
             padding: 8px;
             background-color: antiquewhite;
-            font-size: 4vh;
+            font-size: medium;
             font-style: oblique;
             text-overflow: ellipsis;
             border-left-style: Solid;
@@ -374,8 +378,17 @@ address a {
             border: none;
             background-color: #fff;
         }                
-
-
+        address p {
+            font-size: medium;
+            padding-top: 4%;
+            line-height: 20px;
+            margin-top:  3%;
+        }
+    .form {
+        text-align: center;
+        
+    }
+        
 
 	}
 
@@ -412,17 +425,19 @@ address a {
             margin-right: auto;
             min-height: 10vh;
             padding: 12px;
-            margin-top: 15px;
-            margin-bottom: 15px;
+            margin-top: 4%;
+            margin-bottom: 0;
             }
         .link {
-            margin-top: 20px;
+            margin-top: 10px;
             text-align: center;
             }
         a {
             color: #00ff00;
+
         }
         .btn {
+
             color: #00ff00;
         }
         .btn:hover {
@@ -449,10 +464,10 @@ address a {
             filter: grayscale( );
             opacity: 0.7;
         }
-        section {
+/*        section {
             display: ;
             
-        }
+        }*/
         section img {
             border-radius: 2%;
             max-width: 80%;
@@ -473,15 +488,18 @@ address a {
         header a {
             color: #f7fff7;
             background: #8F3061;
+            font-size: 2em  ;
             text-decoration: none;
             border-radius: 4px;
             padding: 8px;
+            margin: 0 2%;
             border-color: white;
             border-style: line;
         }                
     .notice {
             background: #343434;
-            clear: both;
+            padding-bottom: 20px;
+            /*clear: both;*/
             color: azure;
         }
     aside .bio {
@@ -491,7 +509,7 @@ address a {
             margin-top: 20px;
             padding: 8px;
             background-color: antiquewhite;
-            font-size: 4vh;
+            font-size: medium;
             font-style: oblique;
             text-overflow: ellipsis;
             border-left-style: Solid;
@@ -511,7 +529,16 @@ address a {
             border: none;
             background-color: #fff;
         }                
-
+    address p {
+            font-size: medium;
+            padding-top: 4%;
+            line-height: 20px;
+            margin-top:  3%;
+        }
+    .form {
+        text-align: center;
+        
+    }    
 	}
     
 
@@ -536,7 +563,7 @@ address a {
 	   	display: none!important;
 		}
 */
-@media screen and (max-width: 1025px)
+@media screen and (max-width: 1049px)
 	{
 	.column
 		{
@@ -544,12 +571,7 @@ address a {
 		box-sizing: border-box;
   	 	width: calc(100% - 40px)
 		}
-    
-	}
-
-@media screen and (max-width: 800px)
-	{
-        .Bio {
+    /*.Bio {
             clear: both;
             font-size: 18px;
             padding: 10px;
@@ -560,5 +582,61 @@ address a {
             text-overflow: ellipsis;
             border-color: #f7fff7;
             border-style: dashed;
+            }*/
+
+
+	}
+
+@media screen and (max-width: 1049px)
+	{       
+        .Bio {
+/*            clear: both;*/
+            font-size: x-large;
+            padding: 10px;
+            max-width: 60vw;
+            margin-bottom: 4%;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            text-align: center;
+            text-overflow: ellipsis;
+            border-color: #f7fff7;
+            border-style: dashed;
             }
+    }
+
+@media screen and (max-width: 600px)
+	{
+        * {
+            margin: 0;
+        }
+        header {
+           background-color: #2F3061;
+           color: #00ff7f;
+           padding: 0 20px 20px;
+            }
+        header a {
+            color: #f7fff7;
+            background: #8F3061;
+            font-size: medium  ;
+            text-decoration: none;
+            border-radius: 4px;
+            padding: 8px;
+            margin: 0 2%;
+            border-color: white;
+            border-style: line;
+        }
+        .sub-child {
+            float: none;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            min-height: 10vh;
+            padding: 0;
+            margin-top: 4%;
+            margin-bottom: 0;
+            }
+        .link {
+            margin-top: 10px;
+            text-align: center;
+            }
+        
     }
