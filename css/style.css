@@ -479,7 +479,19 @@ address a {
             margin-top: 20px;
             border-color: antiquewhite;
             border-style: groove;
-            }        
+            }
+        #preview {
+            border-radius: 2%;
+            max-width: 80%;
+            display: block;
+            height: auto;
+            padding: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 20px;
+            border-color: antiquewhite;
+            border-style: groove;   
+        }
         header {
            background-color: #2F3061;
            color: #00ff7f;
