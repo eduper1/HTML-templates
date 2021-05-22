@@ -544,15 +544,21 @@ address a {
 		box-sizing: border-box;
   	 	width: calc(100% - 40px)
 		}
-    .Bio {
+    
+	}
+
+@media screen and (max-width: 800px)
+	{
+        .Bio {
             clear: both;
+            font-size: 18px;
             padding: 10px;
             max-width: 60vw;
+            margin-bottom: 20px;
             font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
             text-align: center;
             text-overflow: ellipsis;
             border-color: #f7fff7;
             border-style: dashed;
             }
-    
-	}
+    }
